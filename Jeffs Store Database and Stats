@@ -1,0 +1,28 @@
+CREATE TABLE jeffs_store (id INTEGER PRIMARY KEY, item_name TEXT, category TEXT, location TEXT, cost INTEGER);
+
+INSERT INTO jeffs_store VALUES(1, "Bikes", "Outdoors", "Texas", 200);
+INSERT INTO jeffs_store VALUES(2, "Skateboards", "Outdoors", "Cali", 100);
+INSERT INTO jeffs_store VALUES(3, "Scooters", "Outdoors", "Texas", 80);
+INSERT INTO jeffs_store VALUES(4, "Surfboards", "Water", "Cali", 300);
+INSERT INTO jeffs_store VALUES(5, "Fishingpoles", "Water", "Texas", 50);
+INSERT INTO jeffs_store VALUES(6, "PC", "Indoors", "ALL", 1000);
+INSERT INTO jeffs_store VALUES(7, "Laptops", "Indoors", "ALL", 1500);
+INSERT INTO jeffs_store VALUES(8, "Mice", "Indoors", "All", 50);
+INSERT INTO jeffs_store VALUES(9, "Bag", "Indoors", "All", 25);
+INSERT INTO jeffs_store VALUES(10, "Keyboards", "Indoors", "All", 80);
+INSERT INTO jeffs_store VALUES(11, "Soccer", "Outdoors", "ALL", 40);
+INSERT INTO jeffs_store VALUES(12, "Football" , "Outdoors", "All", 20);
+INSERT INTO jeffs_store VALUES(13, "Basketball", "Outdoors", "All", 25);
+INSERT INTO jeffs_store VALUES(14, "Ski", "Water", "Texas", 250);
+INSERT INTO jeffs_store VALUES(15, "Baseball", "Outdoor", "All", 10);
+
+
+-- Displayed the datbase ordered by cost under $300.
+SELECT * FROM jeffs_store WHERE cost < 300;
+
+
+-- Displated the database ordered by cost over $500, ordered most to least expensive.
+SELECT * FROM jeffs_store WHERE cost > 500 ORDER BY cost DESC;
+
+
+
