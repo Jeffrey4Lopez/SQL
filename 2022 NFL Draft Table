@@ -1,0 +1,183 @@
+/*
+1st 2 rounds of the NFL 2022 Draft
+*/
+
+CREATE TABLE picks(
+	id INTEGER PRIMARY KEY,
+	pick_number INTEGER,
+	name TEXT,
+	college TEXT,
+	picked_by TEXT,
+	position TEXT);
+
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(1,"Travon Walker","Georgia","Jacksonville","DE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(2,"Aiden Hutchinson","Michigan","Detroit","DE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(3,"Derik Stingley Jr.","LSU","Houston","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(4,"Sauce Gardner","Cincinnati","NY Jets","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(5,"Kayvon Thibodeaux ","Oregon","NY Giants","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(6,"Ikem Ekwonu","N.C. State","Carolina","OT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(7,"Evan Neal","Alabama","NY Giants","OT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(8,"Drake London","USC","Atlanta","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(9,"Charles Cross","Mississippi State","Seattle","OT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(10,"Garett Wilson","Ohio State","NY Jets","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(11,"Chris Olave","Ohio State.","New Orleans","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(12,"Jameson Williams","Alabama","Detroit","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(13,"Jordan Davis","Georgia","Philadelphia","DT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(14,"Kyle Hamilton","Notre Dame","Baltimore","SAF");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(15,"Kenyon Green","Texas A&M","Houston","OL");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(16,"Jahon Dotson","Penn State","Washington","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(17,"Zion Johnson","Boston College","LA Chargers",  "OL");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(18,"Treylon Burks","Arkansas","Tennessee","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(19,"Trevor Penning","Northern Iowa","New Orleans","OT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(20,"Kenny Pickett","Pittsburgh","Pittsburgh","QB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(21,"Trent McDuffie","Washington","Kansas City","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(22,"Quay Walker","Georgia","Green Bay","LB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(23,"Kaiir Elam","Florida","Buffalo","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(24,"Tyler Smith","Tulsa","Dallas","OT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(25,"Tlyer Linderbaum","Iowa","Baltimore","C");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(26,"Jermaine Johnson II","Florida State","NY Jets","DE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(27,"Devin Lloyd","Utah","Jacksonville","LB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(28,"Devonte Wyatt","Georgia","Green Bay","DT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(29,"Cole Strange","Tennessee-Chattanooga","New England","G");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(30,"George Karlaftis","Purdue","Kansas City","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(31,"Daxton Hill","Michigan","Cincinnati","SAF");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(32,"Lewis Cine","Georgia","Minnesota","SAF");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(33,"Logan Hall","Houston","Tampa Bay","DE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(34,"Christian Watson","North Dakota State","Green Bay","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(35,"Roger McCreary","Auburn","Tennessee","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(36,"Breece Hall","Iowa State","NY Jets","RB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(37,"Jalen Pitre","Baylor","Houston","DB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(38,"Arnold Ebiketie","Penn State","Atlanta","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(39,"Kyler Gordon","Washington","Chicago","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(40,"Boye Mafe","Minnesota","Seattle","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(41,"Kenneth Walker III","Michigan State","Seattle","RB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(42,"Andrew Booth","Clemson","Minnesota","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(43,"Wan'Dale Robinson","Kentucky","NY Giants","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(44,"John Metchie III","Alabama","Houston","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(45,"David Ojabo","Michigan","Baltimore","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(46,"Joshua Paschal","Kentucky","Detroit","DE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(47,"Phidarian Mathis","Alabama","Washington","DT");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(48,"Jaquan Brisker","Penn State","Chicago","SAF");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(49,"Alantae Taylor","Tennessee","New Orleans",  "CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(50,"Tyquan Thornton","Baylor","New England","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(51,"Cam Jurgens","Nebraska","Philadelphia","C");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(52,"George Pickens","Georgia","Pittsburgh","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(53,"Alec Pierce","Cincinnati","Indianapolis","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(54,"Skyy Moore","Nebraska","Western Michigan","WR");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(55,"Trey McBride","Colorado State","Arizona","TE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(56,"Sam Williams","Mississippi","Dallas","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(57,"Luke Goedeke","Central Michigan","Tampa Bay","G");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(58,"Troy Andersen","Montana State","Atlanta","LB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(59,"Ed Ingram","LSU","Minnesota","G");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(60,"Cam Taylor-Britt","Nebraska","Cincinnati","CB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(61,"Drake Jackson","LSU","San Francisco","EDGE");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(62,"Bryan Cook","Cincinnati","Kansas City","SAF");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(63,"James Cook","Georgia","Buffalo","RB");
+INSERT INTO picks (pick_number, name, college, picked_by, position)
+	VALUES(64,"Nik Bonitto","Oklahoma","Denver","EDGE");
+
+
+
+
+
+
+// Find the number of players drafted from each University in the first two rounds of the draft:
+
+
+SELECT college, COUNT(*) AS number_of_picks FROM picks GROUP BY college ORDER BY number_of_picks DESC
+
+
+
+
+
+
+
+
+// Number of players drafted by position group:
+
+
+SELECT COUNT(*) AS Players,
+CASE
+WHEN position = "DE" THEN "Defense"
+WHEN position = "CB" THEN "Defense"
+WHEN position = "DB" THEN "Defense"
+WHEN position = "EDGE" THEN "Defense"
+WHEN position = "LB" THEN "Defense"
+WHEN position = "DT" THEN "Defense"
+WHEN position = "SAF" THEN "Defense"
+WHEN position = "C" THEN "Offense"
+WHEN position = "G" THEN "Offense"
+WHEN position = "WR" THEN "Offense"
+WHEN position = "RB" THEN "Offense"
+WHEN position = "QB" THEN "Offense"
+WHEN position = "OT" THEN "Offense"
+WHEN position = "TE" THEN "Offense"
+WHEN position = "C" THEN "Offense"
+WHEN position = "OL" THEN "Offense"
+ELSE "Special Teams"
+END AS "Position Groups"
+FROM picks
+GROUP BY "Position Groups";
