@@ -181,3 +181,36 @@ ELSE "Special Teams"
 END AS "Position Groups"
 FROM picks
 GROUP BY "Position Groups";
+
+
+
+// TAKING IT A STEP FURTHER // 
+
+
+
+
+// Because Georgia had the most draft picks in the first two rounds, how many of those players were Defensive and Offensive players?:
+
+SELECT COUNT(*) AS Players,
+CASE
+WHEN position = "DE" THEN "Defense"
+WHEN position = "CB" THEN "Defense"
+WHEN position = "DB" THEN "Defense"
+WHEN position = "EDGE" THEN "Defense"
+WHEN position = "LB" THEN "Defense"
+WHEN position = "DT" THEN "Defense"
+WHEN position = "SAF" THEN "Defense"
+WHEN position = "C" THEN "Offense"
+WHEN position = "G" THEN "Offense"
+WHEN position = "WR" THEN "Offense"
+WHEN position = "RB" THEN "Offense"
+WHEN position = "QB" THEN "Offense"
+WHEN position = "OT" THEN "Offense"
+WHEN position = "TE" THEN "Offense"
+WHEN position = "C" THEN "Offense"
+WHEN position = "OL" THEN "Offense"
+ELSE "Special Teams"
+END AS "Position Groups"
+FROM picks
+WHERE college IN ("Georgia")
+GROUP BY "Position Groups";
