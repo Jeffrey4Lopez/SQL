@@ -1,0 +1,47 @@
+CREATE TABLE famous_people(
+id INTEGER PRIMARY KEY, 
+fullname TEXT,
+fame_type TEXT,
+married TEXT,
+age INTEGER);
+
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (1,"Tom Cruise", "Actor", "Yes", 57);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (2,"LeBron James", "Sports", "Yes", 37);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (3,"Shawn Mendez", "Music", "No", 26);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (4,"Adam Sandler", "Actor", "Yes", 55);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (5,"Lionel Messi", "Sports", "Yes", 35);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (6,"Billy Eilish", "Music", "Yes", 22);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (7,"Drake", "Music", "Yes", 35);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (8,"Elizabeth Olsen", "Actor", "No", 33);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (9,"Killian Mbappe", "Sports", "No", 23);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (10,"Bad Bunny", "Music", "No", 29);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (11,"Tony Romo", "Sports" ,"Yes", 45);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (12,"Tom Holland", "Actor", "No", 26);
+INSERT INTO famous_people( id, fullname, fame_type, married, age) 
+VALUES (13,"Steve Perry", "Music", "Yes", 60);
+
+// Group the amounts of these famous people by fame category and get a count for for each category. // 
+SELECT fame_type AS Fame_Category,COUNT(*) AS Number
+FROM famous_people
+GROUP BY fame_type
+Order BY age DESC;
+
+
+
+// How many of these famous people are 30 yrs of age or younger? //
+
+SELECT fullname, fame_type AS fame_category, age
+FROM famous_people
+WHERE age <= 30;
